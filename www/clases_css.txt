@@ -1,0 +1,6 @@
+<div> panel
+	<div> panel__item
+		<img> panel__image
+		<span></span> panel__title panel__title--dark
+	</div>
+</div>

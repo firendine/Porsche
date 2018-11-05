@@ -1,0 +1,53 @@
+.grid{
+	display: grid;
+}
+
+// .grid--2col{
+// 	grid-template-areas: 'area1 area2';
+// }
+
+// .grid--3col{
+// 	grid-template-areas: 'area1 area2 area3';
+// }
+
+
+// .grid--4col{
+// 	grid-template-areas: 'area1 area2 area3 area4';
+// }
+
+// .grid--5col{
+// 	grid-template-areas: 'area1 area2 area3 area4 area5';
+// }
+
+// @for $i from 2 through 5{
+//     .grid--#{$i}col{
+        
+//         @for $f from 1 through $i{
+//             area#{$f}{}
+//         }
+        
+//     }
+// }
+
+@for $i from 1 through 8{
+    .grid__area#{$i}{
+        grid-area: area+$i;
+    }
+}
+
+ @for $i from 2 through 5{
+    .grid--#{$i}col{
+        
+         grid-template-columns: repeat($i, auto);
+        
+    }
+ } 
+
+
+
+.grid--comunidad{
+    grid-template-areas:
+        'area1 area1 area2 area3 area4 area4'
+        'area1 area1 area5 area5 area4 area4'
+        'area6 area7 area5 area5 area8 area9'
+}
