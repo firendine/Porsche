@@ -1,0 +1,13 @@
+{
+  "name": "porsche",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "bash deploy/deploy.sh",
+    "onchange": "onchange www/sass/**/*.scss -- npm run deploy"
+  },
+  "author": "",
+  "license": "ISC"
+}
