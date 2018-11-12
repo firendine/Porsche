@@ -400,20 +400,29 @@ html {
   grid-template-columns: repeat(5, auto); }
 
 .grid--comunidad {
+  grid-gap: 0px;
   grid-template-areas: 'area1 area1 area2 area3 area4 area4' 'area1 area1 area5 area5 area4 area4' 'area6 area7 area5 area5 area8 area9'; }
 
-.modelos__image {
+.modelos__image--size {
   width: 230px;
   height: 260px; }
 
-.configuracion__image {
+.configuracion__image--size {
   width: 386px;
   height: 217px; }
 
-.asistente__image {
+.asistente__image--size {
   width: 200px;
   height: 260px; }
 
-.descubra-porsche__image {
+.descubra-porsche__image--size {
   width: 289px;
   height: 216px; }
+
+.comunidad__image--size {
+  width: 100px;
+  height: 100px; }
+
+.presentacion__image--size {
+  width: 100%;
+  height: 600px; }
