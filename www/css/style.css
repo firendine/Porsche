@@ -387,21 +387,26 @@ html {
 .grid__area8 {
   grid-area: area8; }
 
+.grid__area9 {
+  grid-area: area9; }
+
 .grid--2col {
-  grid-template-columns: repeat(2, auto); }
+  grid-template-columns: repeat(2, 1fr); }
 
 .grid--3col {
-  grid-template-columns: repeat(3, auto); }
+  grid-template-columns: repeat(3, 1fr); }
 
 .grid--4col {
-  grid-template-columns: repeat(4, auto); }
+  grid-template-columns: repeat(4, 1fr); }
 
 .grid--5col {
-  grid-template-columns: repeat(5, auto); }
+  grid-template-columns: repeat(5, 1fr); }
 
 .grid--comunidad {
-  grid-gap: 0px;
-  grid-template-areas: 'area1 area1 area2 area3 area4 area4' 'area1 area1 area5 area5 area4 area4' 'area6 area7 area5 area5 area8 area9'; }
+  grid-template-areas: 'area1 area1 area2 area3 area4 area4' 'area1 area1 area5 area5 area4 area4' 'area6 area7 area5 area5 area8 area9';
+  grid-template-columns: 150px 150px 150px 150px 150px 150px;
+  grid-template-rows: 150px 150px 150px;
+  grid-gap: 0px; }
 
 .modelos__image--size {
   width: 230px;
@@ -426,3 +431,9 @@ html {
 .presentacion__image--size {
   width: 100%;
   height: 600px; }
+
+.imagen-coche {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 300px; }
