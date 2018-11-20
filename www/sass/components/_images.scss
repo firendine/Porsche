@@ -17,9 +17,12 @@
     height: 216px;
 }
 
-.comunidad__image--size{
-    width:100px;
-    height:100px;
+.comunidad__images{
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
 }
 
 .presentacion__image--size{
